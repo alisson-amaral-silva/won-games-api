@@ -1,0 +1,48 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application for Won Games",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "jsdom": "^16.5.3",
+    "knex": "0.95.6",
+    "pg": "^8.6.0",
+    "sharp": "^0.29.1",
+    "slugify": "^1.5.3",
+    "strapi": "3.6.2",
+    "strapi-admin": "3.6.2",
+    "strapi-connector-bookshelf": "3.6.2",
+    "strapi-plugin-ckeditor5": "^1.11.0",
+    "strapi-plugin-content-manager": "3.6.2",
+    "strapi-plugin-content-type-builder": "3.6.2",
+    "strapi-plugin-email": "3.6.2",
+    "strapi-plugin-email-designer": "^1.1.6",
+    "strapi-plugin-entity-relationship-chart": "3.1.0",
+    "strapi-plugin-graphql": "3.6.2",
+    "strapi-plugin-sync-roles-permissions": "^0.4.2",
+    "strapi-plugin-upload": "3.6.2",
+    "strapi-plugin-users-permissions": "3.6.2",
+    "strapi-provider-email-nodemailer": "^3.6.2",
+    "strapi-provider-upload-cloudinary": "^3.6.2",
+    "strapi-utils": "3.6.2",
+    "stripe": "^8.148.0"
+  },
+  "author": {
+    "name": "Alisson Alcântara Amaral da Silva"
+  },
+  "strapi": {
+    "uuid": "d4d8034f-65fd-4762-bb5e-3a42b69af351"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
