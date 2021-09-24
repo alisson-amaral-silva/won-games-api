@@ -1,10 +1,4 @@
-/**
- *
- * Wrapper
- *
- */
-
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 const Wrapper = styled.div`
   ${({ theme }) => css`
@@ -28,15 +22,15 @@ const Wrapper = styled.div`
       }
 
       ::-webkit-scrollbar-thumb {
-        background-color: ${theme.main.colors.leftMenu['title-color']};
+        background-color: ${theme.main.colors.leftMenu["title-color"]};
       }
 
       ::-webkit-scrollbar-thumb:hover {
-        background-color: ${theme.main.colors.leftMenu['link-color']};
+        background-color: ${theme.main.colors.leftMenu["link-color"]};
       }
 
       /* firefox */
-      scrollbar-color: ${theme.main.colors.leftMenu['title-color']} transparent;
+      scrollbar-color: ${theme.main.colors.leftMenu["title-color"]} transparent;
     }
   `}
 `;

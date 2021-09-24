@@ -2,9 +2,9 @@
   "name": "api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application for Won Games",
+  "description": "A Strapi application",
   "scripts": {
-    "dev": "strapi develop",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -13,8 +13,7 @@
   "dependencies": {
     "jsdom": "^16.5.3",
     "knex": "0.95.6",
-    "pg": "^8.7.1",
-    "sharp": "^0.29.1",
+    "pg": "8.6.0",
     "slugify": "^1.5.3",
     "strapi": "3.6.2",
     "strapi-admin": "3.6.2",
@@ -23,7 +22,7 @@
     "strapi-plugin-content-manager": "3.6.2",
     "strapi-plugin-content-type-builder": "3.6.2",
     "strapi-plugin-email": "3.6.2",
-    "strapi-plugin-email-designer": "^1.1.6",
+    "strapi-plugin-email-designer": "^0.4.1",
     "strapi-plugin-entity-relationship-chart": "3.1.0",
     "strapi-plugin-graphql": "3.6.2",
     "strapi-plugin-sync-roles-permissions": "^0.4.2",
@@ -42,7 +41,7 @@
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

@@ -2,8 +2,7 @@
   "collectionName": "components_page_highlights",
   "info": {
     "name": "highlight",
-    "icon": "star",
-    "description": ""
+    "icon": "star"
   },
   "options": {},
   "attributes": {
@@ -22,8 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "floatImage": {
       "model": "file",
@@ -32,8 +30,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": false
     },
     "buttonLabel": {
       "type": "string",

@@ -1,6 +1,6 @@
 const cartGamesIds = async (cart) => {
   return await cart.map((game) => ({
-    id: game.id
+    id: game.id,
   }));
 };
 
@@ -18,20 +18,20 @@ const cartItems = async (cart) => {
       }
     })
   );
+
   return games;
 };
 
-const total = async(games) => {
-
+const total = async (games) => {
   const amount = await games.reduce((acc, game) => {
     return acc + game.price;
   }, 0);
 
-  return (amount * 100).toFixed(0);
+  return Number((amount * 100).toFixed(0));
 };
 
 module.exports = {
   cartGamesIds,
   cartItems,
-  total
-}
+  total,
+};

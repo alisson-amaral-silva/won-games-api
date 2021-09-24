@@ -8,7 +8,7 @@
   "attributes": {
     "text": {
       "type": "string",
-      "maxLength": 20
+      "maxLength": 30
     },
     "color": {
       "type": "enumeration",

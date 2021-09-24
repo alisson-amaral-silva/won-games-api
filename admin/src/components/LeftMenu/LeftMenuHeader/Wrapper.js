@@ -1,5 +1,6 @@
-import styled, { css } from 'styled-components';
-import Logo from '../../../assets/images/logo-won.svg';
+import styled, { css } from "styled-components";
+
+import Logo from "../../../assets/images/logo-won.svg";
 
 const Wrapper = styled.div`
   ${({ theme }) => css`
@@ -8,7 +9,7 @@ const Wrapper = styled.div`
 
     .projectName {
       display: block;
-      height: ${(props) => props.theme.main.sizes.leftMenu.height};
+      height: ${theme.main.sizes.leftMenu.height};
       background-image: url(${Logo});
       background-repeat: no-repeat;
       background-position: center center;
